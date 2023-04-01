@@ -1,0 +1,60 @@
+Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Programação Web 
+Dev: Luis Eduardo Godinho Santos
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Loja de Tênis</title>
+</head>
+<body>
+	<header>
+		<h1>Loja de Tênis</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Início</a></li>
+				<li><a href="masculinos.html">Masculinos</a></li>
+				<li><a href="femininos.html">Femininos</a></li>
+				<li><a href="criancas.html">Crianças</a></li>
+				<li><a href="#">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h2>Ofertas da Semana</h2>
+		<table border="1">
+			<tr>
+				<th>Tênis</th>
+				<th>Preço</th>
+			</tr>
+			<tr>
+				<td>Nike Air Max</td>
+				<td>R$ 399,99</td>
+			</tr>
+			<tr>
+				<td>Adidas Ultraboost</td>
+				<td>R$ 449,99</td>
+			</tr>
+			<tr>
+				<td>Puma Future Rider</td>
+				<td>R$ 299,99</td>
+			</tr>
+		</table>
+		<br>
+		<figure>
+			<img src="promo.jpg" alt="Promoção da Semana">
+			<figcaption>Imagem promocional da semana</figcaption>
+		</figure>
+		<br>
+		<form action="#" method="get">
+			<label for="pesquisa">Pesquisar:</label>
+			<input type="text" id="pesquisa" name="pesquisa">
+			<input type="submit" value="Enviar">
+		</form>
+	</main>
+	<footer>
+		<p>Desenvolvido por Luis Eduardo Godinho Santos - UniEVANGÉLICA - Programação Web</p>
+	</footer>
+</body>
+</html>
