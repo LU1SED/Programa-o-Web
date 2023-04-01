@@ -1,0 +1,43 @@
+Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Programação Web 
+Dev: Luis Eduardo Godinho Santos
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Loja de Tênis</title>
+</head>
+<body>
+	<header>
+		<h1>Loja de Tênis</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#">Início</a></li>
+			<li><a href="#">Homens</a></li>
+			<li><a href="#">Mulheres</a></li>
+			<li><a href="#">Crianças</a></li>
+			<li><a href="#">Contato</a></li>
+		</ul>
+	</nav>
+	<main>
+		<h2>Tênis Masculinos</h2>
+		<figure>
+			<img src="nike.jpg" alt="Tênis Nike">
+			<figcaption>Tênis Nike</figcaption>
+		</figure>
+		<figure>
+			<img src="adidas.jpg" alt="Tênis Adidas">
+			<figcaption>Tênis Adidas</figcaption>
+		</figure>
+		<figure>
+			<img src="puma.jpg" alt="Tênis Puma">
+			<figcaption>Tênis Puma</figcaption>
+		</figure>
+	</main>
+	<footer>
+		<p>Desenvolvido por Luis Eduardo Godinho Santos - UniEVANGÉLICA - Programação Web</p>
+	</footer>
+</body>
+</html>
