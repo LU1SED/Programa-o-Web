@@ -1,0 +1,49 @@
+Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Programação Web 
+Dev: Luis Eduardo Godinho Santos
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Loja de Tênis</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<!-- Bloco de informações -->
+	<div>
+		<h1>Loja de Tênis</h1>
+		<p>Encontre os melhores tênis para suas atividades esportivas na nossa loja.</p>
+		<ul>
+			<li>Entrega em todo o país</li>
+			<li>Tênis das melhores marcas</li>
+			<li>Preços competitivos</li>
+		</ul>
+		<p>Confira nossos produtos:</p>
+	</div>
+	<!-- Produtos -->
+	<div>
+		<h2>Tênis Masculinos</h2>
+		<!-- Link para produto -->
+		<a href="#">Tênis Nike Air Max</a>
+		<!-- Imagem do produto -->
+		<img src="tenis-nike-air-max.jpg" alt="Tênis Nike Air Max">
+		<p>Descrição: Tênis Nike Air Max, disponível nos tamanhos 39 ao 44.</p>
+		<p>Preço: R$ 299,00</p>
+		<!-- Link para adicionar ao carrinho -->
+		<a href="#">Adicionar ao carrinho</a>
+	</div>
+	<div>
+		<h2>Tênis Femininos</h2>
+		<!-- Link para produto -->
+		<a href="#">Tênis Adidas Ultra Boost</a>
+		<!-- Imagem do produto -->
+		<img src="tenis-adidas-ultra-boost.jpg" alt="Tênis Adidas Ultra Boost">
+		<p>Descrição: Tênis Adidas Ultra Boost, disponível nos tamanhos 35 ao 40.</p>
+		<p>Preço: R$ 349,00</p>
+		<!-- Link para adicionar ao carrinho -->
+		<a href="#">Adicionar ao carrinho</a>
+	</div>
+</body>
+</html>
